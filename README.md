@@ -73,12 +73,13 @@ Final feature vector size: **512**
 
 ## 📁 Folder Structure
 
-├── Data/ # Image dataset (not included)
-├── Feature_Extraction/ # Color Hist, Haralick, HOG, LBP
-├── Models/ # Individual + Ensemble models
-├── Results/ # Accuracy, metrics, visualizations
-├── crop_recognition.pdf # Final report
-├── README.md # You’re here
+```bash
+├── Data/                 # Image dataset (not included)
+├── Feature_Extraction/   # Color Hist, Haralick, HOG, LBP features
+├── Models/               # Individual + Ensemble model scripts
+├── Results/              # Accuracy, metrics, visualizations
+├── crop_recognition.pdf  # Final project report
+└── README.md             # You’re here
 
 
 ---
