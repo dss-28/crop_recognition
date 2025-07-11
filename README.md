@@ -71,23 +71,7 @@ Final feature vector size: **512**
 
 ---
 
-## 📁 Folder Structure
 
-```bash
-├── Data/                 # Image dataset (not included)
-├── Feature_Extraction/   # Color Hist, Haralick, HOG, LBP features
-├── Models/               # Individual + Ensemble model scripts
-├── Results/              # Accuracy, metrics, visualizations
-├── crop_recognition.pdf  # Final project report
-└── README.md             # You’re here
-
-
----
-
-## 🚀 Future Scope
-
-- Try transfer learning with CNNs (ResNet, EfficientNet)
-- Add model explainability (SHAP/LIME)
 - Deploy as a web app (Streamlit or FastAPI)
 - Real-time crop classification from webcam / drone input
 
