@@ -1,7 +1,3 @@
-Got it 🚀
-Here’s your **same README** but made **more attractive** with emojis, badges, visuals, and structure polish.
-(I’ll add placeholders where you can drop diagrams/plots later.)
-
 ---
 
 # 🌾 Crop Recognition Using Machine Learning
