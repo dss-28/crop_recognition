@@ -1,6 +1,6 @@
 ---
 
-# 🌾 Crop Recognition Using Machine Learning
+# 🌾 Crop Recognition(Images) Using Machine Learning
 
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![Accuracy](https://img.shields.io/badge/Accuracy-98%25-brightgreen.svg)
