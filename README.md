@@ -120,12 +120,15 @@ Scikit-learn • XGBoost • LightGBM • Python • OpenCV • Streamlit (local
 ## 📂 Project Structure
 
 ```bash
-├── data/               # Dataset (images)
-├── features/           # Extracted color histogram features
-├── models/             # ML models + ensembles
-├── results/            # Metrics, confusion matrix
-├── notebooks/          # Jupyter experiments
-└── README.md           # Documentation
+├── Crop_details.csv       # Dataset CSV with image URLs and labels
+├── Mini Project Report.pdf # Project report / documentation
+├── README.md              # This file
+├── app.py                 # Streamlit local app for crop recognition
+├── feature_extractor.joblib # Saved feature extraction pipeline
+├── features.ipynb         # Notebook for feature extraction experiments
+├── final.ipynb            # Final model training and evaluation notebook
+├── scaler.joblib          # Saved scaler for feature normalization
+
 ```
 
 ---
