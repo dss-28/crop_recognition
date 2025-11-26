@@ -85,7 +85,7 @@ Image → Color Histogram Extraction
 **Weighted Voting Ensemble** used to prioritize stronger sub-models.
 
 🏆 **Best Model:** Voting Classifier 2 (7-model ensemble)
-
+⚠️ The trained ML models are not included in this repository due to storage limitations.
 * 📈 Accuracy: **98%** (validation/test)
 * ⚡ Training ~70× faster than classical ML on full-pixel input
 
