@@ -93,14 +93,14 @@ Image → Color Histogram Extraction
 
 ## 📊 Evaluation Metrics
 
-Phase	Algorithm	Accuracy	Precision	Recall	F1_score
-Training	Voting Classifier 1	0.99	0.99	0.99	0.99
-	Voting Classifier 2	1	1	1	1
-Validation	Voting Classifier 1	0.96	0.96	0.96	0.96
-	Voting Classifier 2	0.98	0.98	0.98	0.98
-Testing	Voting Classifier 1	0.97	0.97	0.97	0.97
-	Voting Classifier 2	0.98	0.98	0.98	0.98
-*(You can embed the plot here: `assets/confusion_matrix.png`)*
+| Phase       | Algorithm            | Accuracy | Precision | Recall | F1-score |
+|------------|--------------------|---------|-----------|--------|----------|
+| Training   | Voting Classifier 1 | 0.99    | 0.99      | 0.99   | 0.99     |
+|            | Voting Classifier 2 | 1.00    | 1.00      | 1.00   | 1.00     |
+| Validation | Voting Classifier 1 | 0.96    | 0.96      | 0.96   | 0.96     |
+|            | Voting Classifier 2 | 0.98    | 0.98      | 0.98   | 0.98     |
+| Testing    | Voting Classifier 1 | 0.97    | 0.97      | 0.97   | 0.97     |
+|            | Voting Classifier 2 | 0.98    | 0.98      | 0.98   | 0.98     |
 
 ---
 
