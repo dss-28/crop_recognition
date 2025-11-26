@@ -104,6 +104,16 @@ Image → Color Histogram Extraction
 
 ---
 
+### ⏱️ Training & Testing Time (s)
+
+| Algorithm     | Train (No PCA / PCA / Features) | Test (No PCA / PCA / Features) |
+|--------------|-------------------------------|-------------------------------|
+| Decision Tree | 116 / 0.23 / 0.115            | 0.2 / 0.002 / 0.002           |
+| KNN           | 0.01 / 0.01 / 0.002           | 6 / 0.36 / 0.024              |
+| Logistic      | 39 / 0.024 / 0.113            | 0.45 / 0.004 / 0.009          |
+| SVM           | 39 / 0.011 / 0.065            | 0.25 / 0.037 / 0.055          |
+| Naïve Bayes   | 2.64 / 0.01 / 0.005           | 3.72 / 0.006 / 0.003          |
+
 ## 🛠️ Tech Stack
 
 Scikit-learn • XGBoost • LightGBM • Python • OpenCV • Streamlit (local app)
