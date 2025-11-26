@@ -93,12 +93,13 @@ Image → Color Histogram Extraction
 
 ## 📊 Evaluation Metrics
 
-* ✅ Accuracy: **98%**
-* ✅ F1-score: **0.98**
-* ✅ Precision: **0.98**
-* ✅ Recall: **0.98**
-* ✅ Confusion matrix → in `results/`
-
+Phase	Algorithm	Accuracy	Precision	Recall	F1_score
+Training	Voting Classifier 1	0.99	0.99	0.99	0.99
+	Voting Classifier 2	1	1	1	1
+Validation	Voting Classifier 1	0.96	0.96	0.96	0.96
+	Voting Classifier 2	0.98	0.98	0.98	0.98
+Testing	Voting Classifier 1	0.97	0.97	0.97	0.97
+	Voting Classifier 2	0.98	0.98	0.98	0.98
 *(You can embed the plot here: `assets/confusion_matrix.png`)*
 
 ---
